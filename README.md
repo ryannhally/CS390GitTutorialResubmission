@@ -51,30 +51,21 @@ git config --global user.name "USER NAME"
 git config --global user.email "EMAIL ADDRESS"
 ```
 
-## Creating a repostiory
+## Creating a local repostiory
 First, we will create a **local** repository. 
 
 Git can be used to manage both **local** and **remote** repositories. **Local** repositories live on your computer while **remote** repositories are kept on a server. If you'd like to collaborate with others on your code or access it if your computer breaks, it's important to be able to use remote repositories. In this tutorial, we will create a local repository and **push** (transfer local commits to a remote repo) changes to a Github repo. 
 
 ### Create a local repository
+
+create fold mkdir
+move into folder cd
 Move to the folder you'd like your project to be stored in and run
 ```
 git init
 ```
 You've created a local respository!
 
-### Create a remote repository
-Next, to create a remote repository run 
-```
-git remote add origin https://github.com/USERNAME/PROJECTNAME.git
-```
-
-### Push the changes to the remote repository
-Now we will push our local changes to the remote repository by running
-
-```
-git push origin main
-```
 
 ## Adding files to your repository
 ### Create a file
@@ -99,6 +90,8 @@ Now that we've created a file and Git is tracking the changes we make to it, we 
 ```
 git commit -m "COMMIT MESSAGE"
 ```
+
+## Commiting changes 
 
 ## Branching
 
@@ -163,5 +156,6 @@ git stash pop
 ```
 Note - this does not commmit the changes, it simply reapplies them to the working copy of the code.
 
+## Conclusion
 
 
