@@ -32,12 +32,12 @@ First, there are a few things you will need in order to successfully complete th
 
 ## Some notes on this tutorial
 
-There are several commands in this tutorial that require you to enter a name. For example, when we create a folder you will have to indicate what you'd like that folder to be called. I will use all capital letters to indicate what part of the command should be replaced with the name you'd like. See the following command for creating a folder on Mac:
+There are several commands in this tutorial that require you to enter a name. For example, when we create a folder you will have to indicate what you'd like that folder to be called. I will use all capital letters to indicate what part of the command should be replaced with the name you'd like. As an example, see here the following command for creating a folder on Mac:
 
 ```
 mkdir FILENAME
 ```
-The all capital letters of FILENAME indicate this is where you enter the name of the folder. You would take out it out and replace it with a name of your choosing. When naming files, folders, etc. , please make sure you pick something simple and realted to the project you are currenlty working on. For example, you may want to name the folder we create for this tutorial "Git_Tutorial" or "Git_Tutorial_Example". 
+The all capital letters of FILENAME indicate this is where you enter the name of the folder. You would take out it out and replace it with a name of your choosing. When naming files, folders, etc. , please make sure you pick something simple and realted to the project you are currenlty working on. For example, you may want to name the folder we create for this tutorial "Git_Tutorial" or "Git_Tutorial_Example". That will tell your future self exactly what is in the folder!
 
 
 ### Install GIT
