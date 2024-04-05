@@ -22,7 +22,7 @@ First, there are a few things you will need in order to successfully complete th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operating systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-2. Have GIT installed
+2. Have GiT installed
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git installed or aren't sure, please see the "Install Git" 
 
