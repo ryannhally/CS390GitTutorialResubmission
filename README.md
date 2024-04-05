@@ -16,25 +16,28 @@ In this tutorial we will cover the basics of using Git from the command line. Yo
 First, there are a few things you will need in order to successfully complete this tutorial.
 1. A Mac
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting with Git and the files we create through  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; commands. The commands featured in this tutorial are for terminal on Mac. For resources on using Git with other  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; with Git and the files we create through commands. The commands featured in this
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tutorial are for terminal on Mac. For resources on using Git with other  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operating systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-2. Have GiT installed
+2. Have Git installed
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git installed or aren't sure, please see the "Install Git" 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; installed or aren't sure, please see the "Install Git" 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; section below.
 
 3. A text editor
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this tutorial we will create and edit a file so we can practice saving changes with 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this tutorial we will create and edit a file. I will be using TextEdit on Mac,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Git. I will be using TextEdit on Mac, which is a great option for this tutorial since 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; which is a great option for this tutorial since we will only be making simple changes.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; we will only be making simple changes.
 
 
 ## Some notes on this tutorial
@@ -93,12 +96,12 @@ To keep things simple and organized, we are going to create a new folder and the
 
 To create a folder using the command line, run the following command and add your own folder name:
 ```
-mkdir FILENAME
+mkdir FOLDERENAME
 ```
 Great, we've created a folder! But that doesn't mean we are in the folder. Run command "cd" with the folder name:
 
 ```
-cd FILENAME
+cd FOLDERNAME
 ```
 
 Now that we have a folder and are in it, we can initialize Git with the following commmand:
@@ -110,22 +113,46 @@ That's it -- you've created a local respository!
 ## Creating a remote repository ADDDDDD!!!!!!
 
 
-## Adding files to your repository
-### Create a file
+## Adding a file to the staging enviorment
+In order to practice adding a file to the staging enviorment and to later on save changes, we will create and edit a file. If you already have some familiarity with terminal this might seem basic, but please follow along anyway so you are able to do all future steps. 
 
+### Create a file
+To create a file, run the following command and replaced FILENAME with what you'd like the file to be called. I will be using "GitExampleFile" for mine. Please ensure you are still in the folder we initialized Git in. If not, use the "cd" command we learned above to enter into it.
 
 ```
 touch FILENAME.text
 ```
 
+### Edit the file 
+To edit the file, open up TextEdit on your computer. If your file doesn't appear on the left hand side, enter the name you gave it into the search bar located in the top right corner. Once you see your file, select it and click on "open" in the bottom right corner. 
+
+You should now see a blank file. Type " # I'm learning how to use Git! " and save your changes by typin cmd + S. 
+
+Great, now we have created a file and edited it! Please navigate back to terminal so we can continue with the tutorial. 
+
 ### Add the file to the staging enviornment
-Just because you've created a file does not mean Git is tracking changes to the file! You must add the file to the **staging enviornment** or **index**. This is where Git tracks what will go into your next **commit** (next up).
-Run:
+Just because we've created a file in the right folder does not mean Git is tracking changes to it! We must add the file to the **staging enviornment** or **index**. This is where Git tracks what will go into your next **commit** (next up).
+Run the following command with the file name:
 
 ```
 git add FILENAME
 ```
-Now the file is in our staging enviornment. 
+Now Git is tracking our file!
+
+## Commiting changes
+
+
+Creating and editing a file
+Now we will create and edit a file using terminal. 
+
+### Create the file
+
+
+### Edit the file 
+
+
+
+
 
 ## Commiting changes
 Now that we've created a file and Git is tracking the changes we make to it, we can start to **commit**. Making a commit is like saving changes on a word document. You are saving the current state of the code. Every commit has a **commit message**, which you can use to add a brief description of the changes you've made. Here is how to commit:
