@@ -30,14 +30,21 @@ First, there are a few things you will need in order to successfully complete th
 
 3. A text editor
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this tutorial we will create and edit a file so we can practice saving changes with 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Git. I will be using TextEdit on Mac, which is a great option for this tutorial since 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; we will only be making simple changes.
+
+
 ## Some notes on this tutorial
 
-There are several commands in this tutorial that require you to enter a name. For example, when we create a folder you will have to indicate what you'd like that folder to be called. I will use all capital letters to indicate what part of the command should be replaced with the name you'd like. As an example, see here the following command for creating a folder on Mac:
+There are several commands in this tutorial that will require you to enter a name. For example, when we create a folder you will have to indicate what you'd like that folder to be called. I will use all capital letters to indicate what part of the command should be replaced with the name you'd like. As an example, see here the following command for creating a folder on Mac:
 
 ```
 mkdir FILENAME
 ```
-The all capital letters of FILENAME indicate this is where you enter the name of the folder. You would take out it out and replace it with a name of your choosing. When naming files, folders, etc. , please make sure you pick something simple and realted to the project you are currenlty working on. For example, you may want to name the folder we create for this tutorial "Git_Tutorial" or "Git_Tutorial_Example". That will tell your future self exactly what is in the folder!
+The all capital letters of FILENAME indicate this is where you enter the name of the folder. You would take out it out and replace it with a name of your choosing. When naming files, folders, etc. , please make sure you pick something simple and realted to the project you are currenlty working on. For example, you may want to name the folder we create for this tutorial "Git_Tutorial" or "Git_Tutorial_Example". That will tell your future self exactly what is in the folder and make it easy for you to find. 
 
 
 ### Install GIT
@@ -98,12 +105,14 @@ Now that we have a folder and are in it, we can initialize Git with the followin
 ```
 git init
 ```
-Yay! You've created a local respository!
+That's it -- you've created a local respository!
+
+## Creating a remote repository ADDDDDD!!!!!!
 
 
 ## Adding files to your repository
 ### Create a file
-Before you create a file, make sure you have moved into the folder you want the file stored in. Then create the file with this touch command:
+
 
 ```
 touch FILENAME.text
