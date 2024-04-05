@@ -15,10 +15,12 @@ In this tutorial we will cover the basics of using Git from the command line. Yo
 ### Requirements 
 First, there are a few things you will need in order to successfully complete this tutorial.
 1. A Mac
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting with Git and the files we create through commands. The commands featured in this tutorial are compatible with terminal on Mac. For resources on using Git from the command line with other operating systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting with Git and the files we create through commands. The commands featured in this tutorial are compatible with terminal on Mac. For resources on using Git with other operating systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 3. Have GIT installed
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git installed, the section below will walk you through it.
 
 ### Install GIT
 
