@@ -183,4 +183,5 @@ Note - this does not commmit the changes, it simply reapplies them to the workin
 
 ## Conclusion
 
+You've completed the tutorial! Now you know how to use create a repository, add files to it, commit the changes you've made, navigate branches, and stash. I hope you feel empowered to keep learning! Good luck!
 
