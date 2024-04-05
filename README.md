@@ -53,7 +53,7 @@ mkdir FILENAME
    ```
    git --version
    ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you don't already have Git installed, click [here](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html) for a tutorial on how to install.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you don't already have Git installed, click [here](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html) for a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tutorial on how to install.
 
 ### Set up Git 
 3. Pick a username
