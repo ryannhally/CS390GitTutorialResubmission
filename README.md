@@ -41,6 +41,7 @@ The all capital letters of FILENAME indicate this is where you enter the name of
 
 
 ### Install GIT
+If you don't have GIT installed or aren't sure, please follow the instructions below. If you already have Git, you make skip to the next section titled "Set up Git". 
 
 1. Open terminal
 
@@ -81,19 +82,28 @@ First, we will create a **local** repository.
 Git can be used to manage both **local** and **remote** repositories. **Local** repositories live on your computer while **remote** repositories are kept on a server. If you'd like to collaborate with others on your code or access it if your computer breaks, it's important to be able to use remote repositories. In this tutorial, we will create a local repository and **push** (transfer local commits to a remote repo) changes to a Github repo. 
 
 ### Create a local repository
+To keep things simple and organized, we are going to create a new folder and then initialize Git inside it.
 
-create fold mkdir
-move into folder cd
-Move to the folder you'd like your project to be stored in and run
+To create a folder using the command line, run the following command and add your own folder name:
+```
+mkdir FILENAME
+```
+Great, we've created a folder! But that doesn't mean we are in the folder. Run command "cd" with the folder name:
+
+```
+cd FILENAME
+```
+
+Now that we have a folder and are in it, we can initialize Git with the following commmand:
 ```
 git init
 ```
-You've created a local respository!
+Yay! You've created a local respository!
 
 
 ## Adding files to your repository
 ### Create a file
-Before you create a file, make sure you have moved into the folder you want the file stored in. Then create the file with the touch command
+Before you create a file, make sure you have moved into the folder you want the file stored in. Then create the file with this touch command:
 
 ```
 touch FILENAME.text
