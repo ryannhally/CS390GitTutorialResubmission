@@ -18,19 +18,24 @@ First, there are a few things you will need in order to successfully complete th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting with Git and the files we create through commands. The commands featured in this tutorial are compatible with terminal on Mac. For resources on using Git with other operating systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-3. Have GIT installed
+2. Have GIT installed
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git installed, the section below will walk you through it.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git installed or aren't sure, please see the "Install Git" section below.
+
+3. A text editor
+
+## Some notes
+
 
 ### Install GIT
 
-1. Open a command line
+1. Open terminal
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To work with Git from the command line, you will first need to open up your terminal of choice.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First, you will need to open up terminal.
   
 2. Install Git <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You can check to see if Git is already installed by running
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you aren't sure whether or not you've installed Git, you can check to see if it is already installed by running
    ```
    git --version
    ```
@@ -39,7 +44,7 @@ First, there are a few things you will need in order to successfully complete th
 ### Set up Git 
 3. Pick a username
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To set your Git username, run
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First, we will seTo set your Git username, run
 
 ```
 git config --global user.name "USER NAME"
