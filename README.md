@@ -40,7 +40,7 @@ First, there are a few things you will need in order to successfully complete th
 
 
 
-## Some notes on this tutorial
+### Some notes on this tutorial
 
 There are several commands in this tutorial that will require you to enter a name. For example, when we create a folder you will have to indicate what you'd like that folder to be called. I will use all capital letters to indicate what part of the command should be replaced with the name you'd like. As an example, see here the following command for creating a folder on Mac:
 
@@ -51,7 +51,7 @@ The all capital letters of FILENAME indicate this is where you enter the name of
 
 
 ### Install GIT
-If you don't have GIT installed or aren't sure, please follow the instructions below. If you already have Git, you make skip to the next section titled "Set up Git". 
+If you don't have GIT installed or aren't sure, please follow the instructions below. If you already have Git, you may skip to the next section titled "Set up Git". 
 
 1. Open terminal
 
@@ -114,6 +114,8 @@ That's it -- you've created a local respository!
 
 
 ## Adding a file to the staging enviorment
+The **staging enviornment** refers to files that have changes ready to be saved to the repository. It is an intermediary step, in that Git is tracking that changes made to these files but they have not been added to the repository yet. You might want to stage a file without saving its changes if you've, for example, made a massive change and would like to save it in several pieces to stay organized.
+
 In order to practice adding a file to the staging enviorment and to later on save changes, we will create and edit a file. If you already have some familiarity with terminal this might seem basic, but please follow along anyway so you are able to do all future steps. 
 
 ### Create a file
@@ -131,37 +133,23 @@ You should now see a blank file. Type " # I'm learning how to use Git! " and sav
 Great, now we have created a file and edited it! Please navigate back to terminal so we can continue with the tutorial. 
 
 ### Add the file to the staging enviornment
-Just because we've created a file in the right folder does not mean Git is tracking changes to it! We must add the file to the **staging enviornment** or **index**. This is where Git tracks what will go into your next **commit** (next up).
-Run the following command with the file name:
+Finally, we can add a file to the staging enviornment! Run the following command with name of the file we've just created:
 
 ```
 git add FILENAME
 ```
-Now Git is tracking our file!
+
+Congrats, you have made a file, edited it, and staged it!
 
 ## Commiting changes
+Now that we've created a file, edited it, and staged it, we can save the changes we've made to our repository. In other words, we can make **commits**. Making a commit is like saving changes on a word document; you are saving the current state of the code. Every commit has a **commit message**, which you can use to add a brief description of the changes you've made. 
 
-
-Creating and editing a file
-Now we will create and edit a file using terminal. 
-
-### Create the file
-
-
-### Edit the file 
-
-
-
-
-
-## Commiting changes
-Now that we've created a file and Git is tracking the changes we make to it, we can start to **commit**. Making a commit is like saving changes on a word document. You are saving the current state of the code. Every commit has a **commit message**, which you can use to add a brief description of the changes you've made. Here is how to commit:
+To commit the changes we made to our document, run the following command and add a message describing the changes we've just made.
 
 ```
 git commit -m "COMMIT MESSAGE"
 ```
-
-## Commiting changes 
+Yay, our changes have been saved to the repository!
 
 ## Branching
 
@@ -178,7 +166,7 @@ To create a new branch run
 ```
 git branch BRANCHNAME
 ```
-You've created a branch!
+Congrats, you've created a branch!
 
 ### Switch to a branch
 Just because you've created a branch doesn't mean you are working on that branch, ie, your changes are being commited to it and not the main branch. You will have to switch to the branch by running
