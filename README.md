@@ -16,17 +16,25 @@ In this tutorial we will cover the basics of using Git from the command line. Yo
 First, there are a few things you will need in order to successfully complete this tutorial.
 1. A Mac
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting with Git and the files we create through  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; commands. The commands featured in this tutorial are compatible with terminal on Mac. For resources on using Git with other operating &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting with Git and the files we create through  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; commands. The commands featured in this tutorial are compatible with terminal on Mac. For resources on using Git with other operating 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 2. Have GIT installed
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git installed or aren't sure, please see the "Install Git" section below.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git installed or aren't sure, please see the "Install Git" 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; section below.
 
 3. A text editor
 
 ## Some notes on this tutorial
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There are several points in this tutorial where you will need to give your files, folders, etc. names. I will use all capital letters &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to indicate what part of the command should be replaced with a name of your choice. In the following example,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There are several points in this tutorial where you will need to give your files, folders, etc. names. I will use all capital letters 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to indicate what part of the command should be replaced with a name of your choice. In the following example,
 ```
 mkdir FILENAME
 ```
