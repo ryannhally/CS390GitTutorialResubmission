@@ -16,7 +16,7 @@ In this tutorial we will cover the basics of using Git from the command line. Yo
 First, there are a few things you will need in order to successfully complete this tutorial.
 1. A Mac
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting with Git and the files we create through commands. The commands featured in this tutorial are compatible with terminal on Mac. For resources on using Git with other operating systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting with Git and the files we create through commands. The commands featured in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this tutorial are compatible with terminal on Mac. For resources on using Git with other operating systems, please see here: https://git- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; scm.com/book/en/v2/Getting-Started-Installing-Git
 
 2. Have GIT installed
 
@@ -24,7 +24,13 @@ First, there are a few things you will need in order to successfully complete th
 
 3. A text editor
 
-## Some notes
+## Some notes on this tutorial
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There are several points in this tutorial where you will need to give your files, folders, etc. names. I will use all capital letters &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; to indicate what part of the command should be replaced with a name of your choice. In the following example,
+```
+mkdir FILENAME
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the all capital letters of FILENAME indicate it is the part where you will enter the name of your file.
 
 
 ### Install GIT
@@ -44,7 +50,7 @@ First, there are a few things you will need in order to successfully complete th
 ### Set up Git 
 3. Pick a username
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First, we will seTo set your Git username, run
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First, we will need to pick and enter a Git username. Once you have picked a username, run the following command to set it:
 
 ```
 git config --global user.name "USER NAME"
