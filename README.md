@@ -91,8 +91,6 @@ git config --global user.email "EMAIL ADDRESS"
 Git can be used to manage both **local** and **remote** repositories. **Local** repositories live on your computer while **remote** repositories are kept on a server. If you'd like to collaborate with others on your code or access it if your computer breaks, it's important to be able to use remote repositories. We will create a local repository now, learn their basics, and then return to remote repositories.
 
 ### Create a local repository
-First, we will create a local repository.
-
 To keep things simple and organized, we are going to create a new folder and then initialize Git inside it.
 
 To create a folder using the command line, run the following command and add your own folder name:
