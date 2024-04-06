@@ -54,7 +54,7 @@ There are several commands in this tutorial that will require you to enter a nam
 ```
 mkdir FOLDERNAME
 ```
-The all capital letters of FOLDERNAME indicate this is where you enter the name of the folder. You would take out it out and replace it with a name of your choosing. When naming files, folders, etc. , please make sure you pick something simple and realted to the project you are currenlty working on. For example, you may want to name the folder we create for this tutorial "Git_Tutorial" or "Git_Tutorial_Example". That will tell your future self exactly what is in the folder and make it easy for you to find. 
+The all capital letters of FOLDERNAME indicate this is where you enter the name of the folder. You would delete and replace it with a name of your choosing. When naming files, folders, etc. , please make sure you pick something simple and realted to the project you are currenlty working on. For example, you may want to name the folder we create for this tutorial "Git_Tutorial" or "Git_Tutorial_Example". That will tell your future self exactly what is in the folder and make it easy for you to find. 
 
 
 ### Install Git
