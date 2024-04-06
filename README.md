@@ -17,34 +17,32 @@ In this tutorial we will cover the basics of using Git from the command line. Yo
 First, there are a few things you will need in order to successfully complete this tutorial.
 1. A Mac
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Since this is a tutorial on using Git from the command line, we will be interacting with Git and the files we create through 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; with Git and the files we create through commands. The commands featured in this
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tutorial are for terminal on Mac. For resources on using Git with other  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; commands. The commands featured in this tutorial are for terminal on Mac. For resources on using Git with other  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operating systems, please see [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 
 2. Have Git installed
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git installed or aren't sure, please see the "Install 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; installed or aren't sure, please see the "Install Git" section below.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Git" section below.
 
 
 3. A Github account
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You will need a Github account to complete this tutorial. If you don't already have Github,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You will need a Github account to complete this tutorial. If you don't already have Github, you can create an account
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; you can create an account [here](https://github.com/join)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [here](https://github.com/join)
   
 
 4. A text editor
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this tutorial we will create and edit a file. I will be using TextEdit on Mac,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this tutorial we will create and edit a file. I will be using TextEdit on Mac, which is a great option for this
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; which is a great option for this tutorial since we will only be making simple changes.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tutorial since we will only be making simple changes.
 
 
 ### Some notes on this tutorial
@@ -97,7 +95,7 @@ To create a folder using the command line, run the following command and add you
 ```
 mkdir FOLDERENAME
 ```
-Great, we've created a folder! But that doesn't mean we are in the folder. Run command "cd" with the folder name:
+Great, we've created a folder! But that doesn't mean we are in the folder. Run command "cd" with the folder name to enter into it:
 
 ```
 cd FOLDERNAME
@@ -125,7 +123,7 @@ touch FILENAME.text
 ### Edit the file 
 To edit the file, open up TextEdit on your computer. If your file doesn't appear on the left hand side, enter the name you gave it into the search bar located in the top right corner. Once you see your file, select it and click on "open" in the bottom right corner. 
 
-You should now see a blank file. Type " # I'm learning how to use Git! " and save your changes by typin cmd + S. 
+You should now see a blank file. Type " # I'm learning how to use Git! " and save your changes by typing CMD + S. 
 
 Great, now we have created a file and edited it! Please navigate back to terminal so we can continue with the tutorial. 
 
@@ -154,7 +152,7 @@ Yay, our changes have been saved to the repository!
 We will now return to remote repositories. Like previosuly explained, if you'd like to collaborate with others on your code or access it if your computer breaks, it's important to be able to use remote repositories.
 
 ### Create the remote repository
-To create a remote repository, first head to [Github](https://github.com/). Navigate to your profile by clicking on your circular profile picture/icon in the top right corner. You should see your username towards the top right, and below that a few options including "Overview" "Repositories" and "Projects". Select "Repositories". Finally, click on the blue "New" button towards the top right to create a remote repository. You will be asked to give it a name and brief description. 
+To create a remote repository, first head to [Github](https://github.com/). Navigate to your profile by clicking on your circular profile picture/icon in the top right corner. Click on "Your profile" in the side bar that appears. You should see your username towards the top right, and below that a few options including "Overview" "Repositories" and "Projects". Select "Repositories". Finally, click on the blue "New" button towards the top right to create a remote repository. You will be asked to give it a name and brief description. 
 
 Great, now we have a remote repository!
 
@@ -181,7 +179,7 @@ Now our changes have been pushed!
 ## Branching
 
 ### Create a branch
-Say you want to focus in on changing a specific component of your code, like a feature. You might want to create a **branch** so you can work on it without affecting the rest of your code, and then combine it with the rest of your project once its finished. In summary, a branch is just a seperate version of the repository you can later combine with the main one (called the **main** branch). Here is a visual:
+Say you want to focus in on changing a specific component of your code, like a feature. You might want to create a **branch** so you can work on it without affecting the rest of your code, and then combine it with the rest of your project once its finished. In summary, a branch is just a separate version of the repository you can later combine with the main one (called the **main** branch). Here is a visual:
 
 <img src="https://wac-cdn.atlassian.com/dam/jcr:a905ddfd-973a-452a-a4ae-f1dd65430027/01%20Git%20branch.svg?cdnVersion=1441"
      alt="Git Branch Diagram"
