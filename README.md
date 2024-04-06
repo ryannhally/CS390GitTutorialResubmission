@@ -23,7 +23,7 @@ First, there are a few things you will need in order to successfully complete th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tutorial are for terminal on Mac. For resources on using Git with other  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operating systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operating systems, please see [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 
 2. Have Git installed
