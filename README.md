@@ -35,7 +35,7 @@ First, there are a few things you will need in order to successfully complete th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You will need a Github account to complete this tutorial. If you don't already have Github, you can create an account
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [here](https://github.com/join)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [here](https://github.com/join).
   
 
 4. A text editor
