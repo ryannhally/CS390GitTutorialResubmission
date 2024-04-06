@@ -60,13 +60,13 @@ The all capital letters of FOLDERNAME indicate this is where you enter the name 
 ### Install Git
 If you don't have Git installed or aren't sure, please follow the instructions below. If you already have Git, you may skip to the next section titled "Set up Git". 
 
-First, you will need to open up terminal. If you aren't sure whether or not you've installed Git, you can check to see if it is already installed by running the following command, which will tell you whether its installed or not:
+First, you will need to open up terminal. If you aren't sure whether or not you've installed Git, you can check to see if it is already installed by running the following command:
 
 ```
 git --version
 ```
 
-If you don't already have Git installed, click [here](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html) 
+If it says you don't already have Git installed, click [here](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html) 
 for a  tutorial on how to install.
 
 ### Set up Git 
