@@ -86,12 +86,12 @@ git config --global user.name "USER NAME"
 git config --global user.email "EMAIL ADDRESS"
 ```
 
-## Creating a local repostiory
-First, we will create a **local** repository. 
-
+## Creating a repostiory
 Git can be used to manage both **local** and **remote** repositories. **Local** repositories live on your computer while **remote** repositories are kept on a server. If you'd like to collaborate with others on your code or access it if your computer breaks, it's important to be able to use remote repositories. In this tutorial, we will create a local repository and **push** (transfer local commits to a remote repo) changes to a Github repo. 
 
 ### Create a local repository
+First, we will create a local repository.
+
 To keep things simple and organized, we are going to create a new folder and then initialize Git inside it.
 
 To create a folder using the command line, run the following command and add your own folder name:
@@ -110,8 +110,12 @@ git init
 ```
 That's it -- you've created a local respository!
 
-## Creating a remote repository ADDDDDD!!!!!!
-
+### Creating a remote repository
+Next, to create a remote repository run 
+```
+git remote add origin https://github.com/USERNAME/PROJECTNAME.git
+```
+Now we have both a local and remote repository!
 
 ## Adding a file to the staging enviorment
 The **staging enviornment** refers to files that have changes ready to be saved to the repository. It is an intermediary step, in that Git is tracking that changes made to these files but they have not been added to the repository yet. You might want to stage a file without saving its changes if you've, for example, made a massive change and would like to save it in several pieces to stay organized.
