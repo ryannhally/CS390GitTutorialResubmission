@@ -4,7 +4,7 @@ Welcome to my Git from the command line tutorial!
 Git is a **version control system** for developers. In other words, Git allows you to manage changes to code. Once you master Git, you will be able to use it to track changes to your code and collaborate more easily with other developers, among other things.
 
 In this tutorial we will cover the basics of using Git from the command line. You will learn how to...
-* Create a repository
+* Create a local and remote repository
 * Add files to the repository
 * Commit changes
 * Push changes
@@ -57,7 +57,7 @@ mkdir FOLDERNAME
 The all capital letters of FOLDERNAME indicate this is where you enter the name of the folder. You would take out it out and replace it with a name of your choosing. When naming files, folders, etc. , please make sure you pick something simple and realted to the project you are currenlty working on. For example, you may want to name the folder we create for this tutorial "Git_Tutorial" or "Git_Tutorial_Example". That will tell your future self exactly what is in the folder and make it easy for you to find. 
 
 
-### Install GIT
+### Install Git
 If you don't have GIT installed or aren't sure, please follow the instructions below. If you already have Git, you may skip to the next section titled "Set up Git". 
 
 First, you will need to open up terminal. If you aren't sure whether or not you've installed Git, you can check to see if it is already installed by running the following command, which will tell you whether its installed or not:
@@ -83,6 +83,7 @@ For this tutorial we will need to select an email address to be associated with 
 ```
 git config --global user.email "EMAIL ADDRESS"
 ```
+
 
 ## Creating a local repository
 
@@ -160,16 +161,24 @@ To create a remote repository, first head to [Github](https://github.com/). Navi
 Great, now we have a remote repository!
 
 ### Link your local and remote repositories
-We have both a local and remote repository, but that doesn't mean they are connected. In other words, it doesn't mean we can upload what we do with our local repository to the remote one yet. First, we will have to run the following command:
+We have both a local and remote repository, but that doesn't mean they are connected. In other words, it doesn't mean we can upload what we do with our local repository to the remote one yet.
 
+First, we will have to run the following command that requires the URL of the repository we just created. The formula for the URL is pretty simple. It takes your username and the name of the project like this: https://github.com/YOUR GITHUB USERNAME/THE NAME OF YOUR PROJECT.git
 
+```
+git remote add origin <https://github.com/YOUR GITHUB USERNAME/THE NAME OF YOUR PROJECT.git>
+```
 
-## Pushing changes
-ow we will push our local changes to the remote repository by running
+Now our repositories are linked. 
+
+## Push changes
+Just because our remote and local repositories are linked doesn't mean our remote repository is updated with the changes we've made to the local one. Adding changes to the remote branch is called a **push**. To push our changes, run:
 
 ```
 git push origin main
 ```
+
+Now our changes have been pushed!
 
 ## Branching
 
@@ -181,7 +190,7 @@ Say you want to focus in on changing a specific component of your code, like a f
      style="float: left; margin-right: 10px;" />
 
      
-To create a new branch run
+To create a new branch run:
 
 ```
 git branch BRANCHNAME
@@ -217,6 +226,7 @@ If the head is pointed at the correct branch, run
 git merge BRANCHNAME
 ```
 
+
 ## Stashing
 
 ### Stash changes
@@ -226,6 +236,7 @@ What if you wanted to save some changes you've made, but aren't quite ready to c
 git stash
 ```
 
+
 ### Pop changes
 If you'd like to reapply the changes to your working copy, you can use **pop** to do so. Simply run
 
@@ -234,6 +245,7 @@ git stash pop
 ```
 Note - this does not commmit the changes, it simply reapplies them to the working copy of the code.
 
+
 ## Conclusion
-Congrats, you've completed the tutorial! Now you know how to use create a local repository, add files to it, commit the changes you've made, navigate branches, and stash. I hope you feel empowered to keep learning! Good luck!
+Congrats, you've completed the tutorial! Now you know how to use create a local and remote repository, add files to it, commit changes made, navigate branches, and stash. I hope you feel empowered to keep learning! Good luck!
 
