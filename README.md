@@ -7,6 +7,7 @@ In this tutorial we will cover the basics of using Git from the command line. Yo
 * Create a repository
 * Add files to the repository
 * Commit changes
+* Push changes
 * Branch
 * Merge
 * Stash
@@ -24,20 +25,26 @@ First, there are a few things you will need in order to successfully complete th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; operating systems, please see here: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
+
 2. Have Git installed
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Of course, to use Git we will need to have Git! If you don't already have Git 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; installed or aren't sure, please see the "Install Git" 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; installed or aren't sure, please see the "Install Git" section below.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; section below.
 
-3. A text editor
+3. A Github account
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You will need a Github account to complete this tutorial. If you don't already have Github,
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; you can create an account [here](https://github.com/join)
+  
+
+4. A text editor
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this tutorial we will create and edit a file. I will be using TextEdit on Mac,
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; which is a great option for this tutorial since we will only be making simple changes.
-
 
 
 ### Some notes on this tutorial
@@ -45,49 +52,42 @@ First, there are a few things you will need in order to successfully complete th
 There are several commands in this tutorial that will require you to enter a name. For example, when we create a folder you will have to indicate what you'd like that folder to be called. I will use all capital letters to indicate what part of the command should be replaced with the name you'd like. As an example, see here the following command for creating a folder on Mac:
 
 ```
-mkdir FILENAME
+mkdir FOLDERNAME
 ```
-The all capital letters of FILENAME indicate this is where you enter the name of the folder. You would take out it out and replace it with a name of your choosing. When naming files, folders, etc. , please make sure you pick something simple and realted to the project you are currenlty working on. For example, you may want to name the folder we create for this tutorial "Git_Tutorial" or "Git_Tutorial_Example". That will tell your future self exactly what is in the folder and make it easy for you to find. 
+The all capital letters of FOLDERNAME indicate this is where you enter the name of the folder. You would take out it out and replace it with a name of your choosing. When naming files, folders, etc. , please make sure you pick something simple and realted to the project you are currenlty working on. For example, you may want to name the folder we create for this tutorial "Git_Tutorial" or "Git_Tutorial_Example". That will tell your future self exactly what is in the folder and make it easy for you to find. 
 
 
 ### Install GIT
 If you don't have GIT installed or aren't sure, please follow the instructions below. If you already have Git, you may skip to the next section titled "Set up Git". 
 
-1. Open terminal
+First, you will need to open up terminal. If you aren't sure whether or not you've installed Git, you can check to see if it is already installed by running the following command, which will tell you whether its installed or not:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First, you will need to open up terminal.
-  
-2. Install Git <br>
+```
+git --version
+```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you aren't sure whether or not you've installed Git, you can check to see if it is already installed by running
-   ```
-   git --version
-   ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you don't already have Git installed, click [here](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html) for a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tutorial on how to install.
+If you don't already have Git installed, click [here](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html) 
+for a  tutorial on how to install.
 
 ### Set up Git 
-3. Pick a username
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; First, we will need to pick and enter a Git username. Once you have picked a username, run the following command to set it:
+First, we will need to pick and enter a Git username. Once you have picked a username, run the following command to set it:
 
 ```
 git config --global user.name "USER NAME"
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Note - the use of "global" means you are setting this as your username for all of your repositories.
+Note - the use of "global" means you are setting this as your username for all of your repositories.
 
-4. Set your email address
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For this tutorial we will need to select an email address to be associated with the changes we make to Github. 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This should be the same email address that is associated with your Github account. Run
+For this tutorial we will need to select an email address to be associated with the changes we make to Github. This should be the same email address that is associated with your Github account. Run the following command and enter your email address.
 
 ```
 git config --global user.email "EMAIL ADDRESS"
 ```
 
-## Creating a repostiory
-Git can be used to manage both **local** and **remote** repositories. **Local** repositories live on your computer while **remote** repositories are kept on a server. If you'd like to collaborate with others on your code or access it if your computer breaks, it's important to be able to use remote repositories. In this tutorial, we will create a local repository and **push** (transfer local commits to a remote repo) changes to a Github repo. 
+## Creating a local repository
+
+### Local vs. remote repositories 
+Git can be used to manage both **local** and **remote** repositories. **Local** repositories live on your computer while **remote** repositories are kept on a server. If you'd like to collaborate with others on your code or access it if your computer breaks, it's important to be able to use remote repositories. We will create a local repository now, learn their basics, and then return to remote repositories.
 
 ### Create a local repository
 First, we will create a local repository.
@@ -110,12 +110,6 @@ git init
 ```
 That's it -- you've created a local respository!
 
-### Creating a remote repository
-Next, to create a remote repository run 
-```
-git remote add origin https://github.com/USERNAME/PROJECTNAME.git
-```
-Now we have both a local and remote repository!
 
 ## Adding a file to the staging enviorment
 The **staging enviornment** refers to files that have changes ready to be saved to the repository. It is an intermediary step, in that Git is tracking that changes made to these files but they have not been added to the repository yet. You might want to stage a file without saving its changes if you've, for example, made a massive change and would like to save it in several pieces to stay organized.
@@ -145,6 +139,7 @@ git add FILENAME
 
 Congrats, you have made a file, edited it, and staged it!
 
+
 ## Commiting changes
 Now that we've created a file, edited it, and staged it, we can save the changes we've made to our repository. In other words, we can make **commits**. Making a commit is like saving changes on a word document; you are saving the current state of the code. Every commit has a **commit message**, which you can use to add a brief description of the changes you've made. 
 
@@ -154,6 +149,27 @@ To commit the changes we made to our document, run the following command and add
 git commit -m "COMMIT MESSAGE"
 ```
 Yay, our changes have been saved to the repository!
+
+
+## Creating a remote repository 
+We will now return to remote repositories. Like previosuly explained, if you'd like to collaborate with others on your code or access it if your computer breaks, it's important to be able to use remote repositories.
+
+### Create the remote repository
+To create a remote repository, first head to [Github](https://github.com/). Navigate to your profile by clicking on your circular profile picture/icon in the top right corner. You should see your username towards the top right, and below that a few options including "Overview" "Repositories" and "Projects". Select "Repositories". Finally, click on the blue "New" button towards the top right to create a remote repository. You will be asked to give it a name and brief description. 
+
+Great, now we have a remote repository!
+
+### Link your local and remote repositories
+We have both a local and remote repository, but that doesn't mean they are connected. In other words, it doesn't mean we can upload what we do with our local repository to the remote one yet. First, we will have to run the following command:
+
+
+
+## Pushing changes
+ow we will push our local changes to the remote repository by running
+
+```
+git push origin main
+```
 
 ## Branching
 
@@ -219,6 +235,5 @@ git stash pop
 Note - this does not commmit the changes, it simply reapplies them to the working copy of the code.
 
 ## Conclusion
-
-You've completed the tutorial! Now you know how to use create a repository, add files to it, commit the changes you've made, navigate branches, and stash. I hope you feel empowered to keep learning! Good luck!
+Congrats, you've completed the tutorial! Now you know how to use create a local repository, add files to it, commit the changes you've made, navigate branches, and stash. I hope you feel empowered to keep learning! Good luck!
 
