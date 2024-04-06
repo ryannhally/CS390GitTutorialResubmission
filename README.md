@@ -171,7 +171,7 @@ Now our repositories are linked.
 Just because our remote and local repositories are linked doesn't mean our remote repository is updated with the changes we've made to the local one. Adding changes to the remote branch is called a **push**. To push our changes, run:
 
 ```
-git push origin main
+git push -u origin main
 ```
 
 Now our changes have been pushed!
